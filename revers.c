@@ -1,6 +1,6 @@
 #include <stdio.h>
  
-int main()
+void revers()
 {
    int n, reverse = 0;
  
@@ -16,5 +16,5 @@ int main()
  
    printf("Reverse of entered number is = %d\n", reverse);
  
-   return 0;
+   
 }

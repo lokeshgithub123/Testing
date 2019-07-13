@@ -1,6 +1,6 @@
 #include <stdio.h>
  
-int main()
+void pali()
 {
    int n, reverse = 0, t;
  
@@ -21,7 +21,7 @@ int main()
    else
       printf("%d isn't a palindrome number.\n", n);
  
-   return 0;
+   
 }
 
 

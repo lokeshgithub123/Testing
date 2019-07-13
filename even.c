@@ -1,5 +1,5 @@
-include <stdio.h>
-int main()
+#include <stdio.h>
+void even()
 {
     int number;
     printf("Enter an integer: ");
@@ -9,5 +9,5 @@ int main()
         printf("%d is even.", number);
     else
         printf("%d is odd.", number);
-    return 0;
+    
 }
